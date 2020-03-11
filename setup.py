@@ -10,14 +10,13 @@ REQUIRED = [
     "scikit-learn",
     "scipy",
     "matplotlib",
-    "category-encoders",
-    "twine"]
+    "category-encoders"]
 
 with open("README.md", "r") as fh:
     LONG_DESCRIPTION = fh.read()
     setuptools.setup(
         name="class_test",
-        version="1",
+        version="1.1",
         author="evidencen",
         description="A collection of functions to quickly split data and analyze it",
         long_description=LONG_DESCRIPTION,
