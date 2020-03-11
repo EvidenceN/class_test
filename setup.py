@@ -7,8 +7,11 @@ import setuptools
 REQUIRED = [
     "numpy",
     "pandas",
-    "scikit-learn"
-]
+    "scikit-learn",
+    "scipy",
+    "matplotlib",
+    "category-encoders",
+    "twine"]
 
 with open("README.md", "r") as fh:
     LONG_DESCRIPTION = fh.read()
